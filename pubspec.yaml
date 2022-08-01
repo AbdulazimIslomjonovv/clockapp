@@ -1,0 +1,37 @@
+name: clockapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_neumorphic: ^3.2.0
+  intl: ^0.17.0
+  get: ^4.6.5
+  flutter_inset_box_shadow: ^1.0.7
+  animations: ^2.0.3
+  flutter_svg: ^1.1.1+1
+  google_fonts: ^3.0.1
+  provider: ^6.0.3
+  flutter_local_notifications: ^9.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
